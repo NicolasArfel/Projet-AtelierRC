@@ -1,0 +1,20 @@
+.back__office-link {
+    margin-right: 2rem;
+}
+
+.back__office-title {
+    transition: background-color .3s;
+    font-size: 1.2rem;
+    color: #00000045;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+}
+
+.Back__Banner-Title:hover {
+    color: rgb(150, 150, 150);
+}

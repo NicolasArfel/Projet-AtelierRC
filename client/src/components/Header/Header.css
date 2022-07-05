@@ -1,0 +1,97 @@
+li {
+    margin: 1rem;
+}
+
+header {
+    height: 100px;
+}
+
+nav {
+    box-shadow: none;
+}
+
+.active-link {
+    font-weight: 500;
+    color: black;
+}
+
+.login-icon {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.personn__side-nav {
+    margin: 0px 32px 0px 92px !important;
+}
+
+.logoInsta {
+    margin-bottom: 3em;
+}
+
+.logo_header {
+    padding-top: 2rem;
+    width: 130px;
+}
+
+.insta {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 30px;
+    margin-top: 1rem;
+}
+
+.insta:hover {
+    width: 35px;
+}
+
+@media (min-width: 992px) {
+    .sidenav-trigger {
+        position: absolute;
+        top: -200px;
+    }
+}
+
+.sidenav-trigger:hover {
+    cursor: pointer;
+}
+
+.li__side-nav::after {
+    background-color: rgba(233, 233, 233, 0);
+}
+
+li {
+    display: block;
+    position: relative;
+    padding: 0.1em 0;
+}
+
+li::after {
+    content: "";
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+li:hover::after,
+li:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+}
+
+li::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+li:hover::after,
+li:focus::after {
+    transform: scale(1);
+}

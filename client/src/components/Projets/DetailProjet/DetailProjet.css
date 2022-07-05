@@ -1,0 +1,35 @@
+.card__detail {
+    box-shadow: none;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.card__article {
+    width: 50% ;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.card__section-title {
+    text-decoration: underline;
+}
+
+.sticky__details-project {
+    position: sticky;
+    top: 20px
+}
+
+@media (max-width:992px) {
+    .sticky__details-project {
+        position: initial;
+    }
+    .card__detail {
+        width: 100% ;        
+    }
+    .card__article {
+        width: 70%;
+    }
+}

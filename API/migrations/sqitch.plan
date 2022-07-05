@@ -1,0 +1,6 @@
+%syntax-version=1.0.0
+%project=atelier-rc
+
+init 2022-06-09T15:33:43Z VeroniqueMoine <moine.veronique@gmail.com> # set up of the database
+table-domain 2022-06-13T08:32:36Z Vero M <moine.veronique@gmail.com> # additional table and domain and alter table
+role 2022-06-13T14:03:41Z Vero M <moine.veronique@gmail.com> # user and client alter table with additional role

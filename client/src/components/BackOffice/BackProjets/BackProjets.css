@@ -1,0 +1,44 @@
+.table__back-projects {
+    margin-top: 4em;
+}
+
+.projects__list {
+    margin-bottom: 2rem;
+}
+
+.input__file-cover-project {
+    margin-bottom: 2em;
+}
+
+.label__file-cover {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.update__project {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.preview__update-project {
+    width: 30% !important;
+}
+
+.isConfirm__form-update-project {
+    color: green;
+}
+
+.ErrorUpload__coverPhotoProject {
+    color: red;
+}
+
+.title__backOffice-Project:hover {
+    color: grey;
+}

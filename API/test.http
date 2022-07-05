@@ -1,0 +1,33 @@
+################################################################################
+# Test file for the HTTP routes of the API
+# To be able to use it, you need REST Client extension on your VSCode
+# https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+################################################################################
+
+### service indisponible
+//GET http://localhost:3001/404
+
+############################## PROJECTS #############################
+
+### récupération de toutes les projets
+GET http://localhost:3001/api/projects
+
+### récupération d'une liste
+GET http://localhost:3001/api/project/1
+
+### récupération de toutes les objets de mobilier
+GET http://localhost:3001/api/furnitures
+
+### récupération d'un objet
+GET http://localhost:3001/api/furniture/1
+
+### suppression d'un projet
+DELETE http://localhost:3001/api/admin/project/4
+
+# POST http://localhost:3001/api/login HTTP/1.1
+# content-type: application/json
+
+# {
+#     "email": "hello@gmail.com",
+#     "password": "kshflkqhflqhlhf"
+# }

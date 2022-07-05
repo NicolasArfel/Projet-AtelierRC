@@ -1,0 +1,15 @@
+.button__back-admin-delete,
+.button__back-admin-modify {
+    margin-right: 1rem;
+    border-radius: .5rem;
+}
+
+.button__back-admin-delete:hover {
+    background-color: #ff0000 !important;
+    color: white;
+}
+
+.button__back-admin-modify:hover {
+    background-color: #00c9b6 !important;
+    color: white;
+}

@@ -1,0 +1,60 @@
+.contact__banner {
+    border-top: 1px solid #0000006e;
+    border-bottom: 1px solid #0000006e;
+    margin: 2em 0em 2em 0em;
+    text-align: initial;
+}
+
+.contact__banner-p {
+    margin-left: 2em;
+    font-size: 1.2em;
+}
+
+.error__sending-email {
+    color: red;
+}
+
+.succed__sending-email {
+    color: green;
+}
+
+.contact__image-container {
+    display: flex;
+    height: 80vh;
+}
+.contact__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 70%;
+}
+
+.contact__aticle {
+    margin: 1em;
+}
+
+@media only screen and (max-width: 1004px) {
+    .contact__img {
+        max-width: 38% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact__img {
+        max-width: 30% !important;
+    }
+
+    .row .col {
+        width: 100% !important;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .contact__img {
+        max-width: 40% !important;
+    }
+}
